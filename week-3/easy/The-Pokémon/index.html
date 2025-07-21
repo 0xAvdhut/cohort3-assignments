@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Pokedex lite</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <main>
+      <div>
+        <h1>Welcome To Pokedex</h1>
+        <input
+          type="number"
+          id="quantity"
+          name="Pokemon No."
+          placeholder="Input no of Pokemons"
+          min="1"
+          max="20"
+        />
+        <select id="typePoke" name="category/type">
+          <option value="">choose category</option>
+        </select>
+        <button disabled>Search</button>
+      </div>
+      <div id="cards" style="display: flex">
+        <!-- <div id="card"> -->
+        <!--   <div id="pokeimage"> -->
+        <!--     <img -->
+        <!--       src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png" -->
+        <!--     /> -->
+        <!--   </div> -->
+        <!--   <div id="card-footer"> -->
+        <!--     <div><h2>Beetter</h2></div> -->
+        <!--     <div>fire</div> -->
+        <!--   </div> -->
+        <!-- </div> -->
+      </div>
+    </main>
+  </body>
+</html>
