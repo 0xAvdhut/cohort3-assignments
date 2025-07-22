@@ -1,0 +1,8 @@
+#holder {
+  margin: 7rem 10rem;
+  height: 4rem;
+  width: 100rem;
+  border: 1px solid #000;
+  display: flex;
+  flex-type: column;
+}
